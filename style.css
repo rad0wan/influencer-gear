@@ -1,13 +1,18 @@
 /* -------google Fonts------ */
 @import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Inter&family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
 body{
+    margin:0;
     display: flex;
     flex-direction: column;
     align-items: center;
     /* Width: 1200px;  */
     background: #FFFFFF;
     font-family: 'Poppins', sans-serif;
-    padding: 50px 120px 100px;
+    padding-top: 50px;
+    padding-left: 120px;
+    padding-right: 120px;
+    padding-bottom: 0;
+    
 }
 /* ---------header nav------ */
 .influencer-menu{
@@ -159,6 +164,73 @@ body{
 .see-more p{
     padding-right: 8px;
 }
+
+.featured{
+    margin-top: 80px;
+    width: 1200px;
+    display: grid;
+    grid-template-columns: repeat(2,.48fr);     
+}
+.fea-inf h2{
+    color: #0A0826;
+    font-size: 32px;
+}
+.fea-inf p{
+    color: #6C6C6C;
+    font-size:16px;
+}
+.join-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #E02C6D;
+    width: 155px;
+    height: 44px;
+}
+.join-button a{
+    font-size: 16px;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.gap{
+    padding-left: 8px;
+}
+footer{
+    margin-top: 100px;
+    width: 1200px;
+    background: #0A0826;
+}
+.end-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* width: 270px;
+    height: 139px; */
+    
+}
+.end-influence h3{
+    color: #FFFFFF;
+    font-size: 24px;
+    margin-bottom: 0;
+    padding-left: 14px;
+}
+.end-influence p{
+    color: #D9DBE1;  
+    font-size: 14px;
+    margin: 0;
+    padding-top: 5px;
+}
+.end-icon a{
+    color: #FFFFFF;
+    padding-left: 16px;
+    padding-top:10px; 
+}
+#all-right{
+    padding-left: 75px;
+}
+
+
 
 
 
