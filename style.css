@@ -1,0 +1,164 @@
+/* -------google Fonts------ */
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Inter&family=Poppins:wght@600&family=Roboto:wght@500&display=swap');
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Width: 1200px;  */
+    background: #FFFFFF;
+    font-family: 'Poppins', sans-serif;
+    padding: 50px 120px 100px;
+}
+/* ---------header nav------ */
+.influencer-menu{
+    display: flex;
+    justify-content: space-between;
+    width: 1200px;
+}
+.influencer-menu a{
+    text-decoration: none;
+    color: #3A3A3A;
+}
+.products{
+    font-size: 24px; 
+    font-weight:bold;
+    font-weight: 700;
+}
+.home-menu{
+    font-size: 16px;
+    font-weight: 600;
+
+}
+.home-menu a{
+    margin-right: 34px;
+}
+/* ------------Influencer-items-------- */
+.influencer-items{
+    width: 1188px;
+    height: 475px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-column-gap:px;
+}
+.link-button{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background: #E02C6D;
+    width: 196px;
+    height: 44px;
+    border-radius:41px ;
+}
+.link-button a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding-left: 8px;
+}
+/* -------infuance info-------- */
+
+.start-info{
+    margin-top: 100px;
+}
+.start-info h1{
+    font-size: 56px;
+    margin: 0px;
+}
+.start-info p{
+    font-size: 16px;
+}
+.main-camera{
+    margin-top: 80px;
+    width: 440px;
+    height: 414px; 
+    margin-left: 126px; 
+}
+.companys{
+    width:1100px;
+    margin-top: 108px;
+    margin-left: 32px;
+}
+.com-logos{
+    display: flex;
+    justify-content:space-evenly;   
+}
+.hrr{
+    background-color: rgba(255, 255, 255, 1);
+}
+
+/* ----------popular collection-------- */
+.sec-title{
+    display: flex;
+    justify-content: center;
+    margin-top:92px;
+    margin-bottom:30px;
+    font-size:28px;
+    color: #3A3A3A;
+    font-weight: bold;
+    font-weight: 600px;
+
+}
+.container{
+    width: 1087px;
+    margin-left: 60px;
+}
+.collections{
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap:30px;
+}
+.prodact{
+    
+    width:300px;
+    height: 465px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    padding:17px 15px 17px 14px ;
+}
+.prodac-details h3{
+    color: #18191F; 
+    font-size: 24px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+.prodac-details h5{
+    font-size: 20px;
+    margin-top: 6px;
+    margin-bottom: 10px;
+
+}
+.start-info,a{
+    color: #FB8200;
+    
+}
+.start-info,span{
+    color: #5E6366;
+    font-size: 14px;
+    margin-left: 8px;
+}
+.prodac-details p{
+    color: #787885;
+    font-size: 14px;
+}
+
+.see-more{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 35px;
+    padding-top: 20px;
+    
+}
+.see-more,.see{
+    color: rgba(224, 44, 109, 0.87);
+}
+.see-more p{
+    padding-right: 8px;
+}
+
+
+
